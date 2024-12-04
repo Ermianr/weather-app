@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *::after,*::before {
+  box-sizing: inherit;
+}
+body {
+  font-size: 62.5%;
+  font-family: "Roboto", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3b82f6;
+}
+/* Main */
+#weather-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  border-radius: 1rem;
+}
+#search-bar {
+  border: 1px solid #3b82f6;
+  padding: 1rem;
+  border-radius: .5rem;
+}
